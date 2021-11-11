@@ -58,11 +58,11 @@ namespace ManagementSystem
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1069305775120-dsu9m1l9r33ac1avuu26andkhsrhe6ee.apps.googleusercontent.com",
+               ClientSecret = "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"
+            });
         }
     }
 }
